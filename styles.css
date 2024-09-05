@@ -1,0 +1,11 @@
+ /* BEM = Bloque Elemento Mddificador 
+ 
+ Se usa siempre class no ID
+
+ Class = aplicar estilos
+ id = aplicar funcionalidad (javascript)
+
+ .bloque
+ .bloque_elemento
+ .bloque_elemento--modificador
+ */
