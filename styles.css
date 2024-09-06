@@ -24,16 +24,7 @@
     border-radius: 10px;
  }
 
- .cards{
-    width: 400px;
-    margin: 10px auto;
-    padding: 10px;
-    border: 1px solid gray;
-    box-shadow: 0px 0px 20px black;
-    border-radius: 10px;
- }
-
- .cards .card{
+ .cards__card{
     font-family: 'Courier New', Courier, monospace;
     padding: 10px;
     margin: 5px;
@@ -41,16 +32,21 @@
  }
 
  /* Selector  clave */
- .cards .card h3{
+ .card__title{
     font-size: 24px;
     font-weight: bold;
  }
 
- .cards .card a{
+ .card__link{
     padding: 10px;
     background: rgb(58, 84, 18);
     color: white;
     text-decoration: none;
+ }
+
+ /* usando el modificador */
+ .card__link--rojo{
+   background-color: red;
  }
 
  /* =========================================== */
