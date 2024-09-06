@@ -8,7 +8,21 @@
  .bloque
  .bloque_elemento
  .bloque_elemento--modificador
+
+ 1. no usar ID
+ 2. no usar etiquetas
+ 3. que todo sea un key selector(seleccionar justo el elemento al cual le aplicare estilos)
  */
+
+/* Con BEM */
+ .cards{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 10px;
+ }
 
  .cards{
     width: 400px;
@@ -26,6 +40,7 @@
     background-color: rgb(249, 213, 177);
  }
 
+ /* Selector  clave */
  .cards .card h3{
     font-size: 24px;
     font-weight: bold;
